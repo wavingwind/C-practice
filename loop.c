@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 int main() {
-	// do { } while (Á¶°Ç)
+	// do { } while (ì¡°ê±´)
 	//int i = 1;
 	//do {
 	//	printf("Hello World %d\n", i++);
 	//} while (i <= 10);
 
-	// 2Áß ¹Ýº¹¹®
+	// 2ì¤‘ ë°˜ë³µë¬¸
 	//for (int i = 2; i <= 9; i++)
 	//{
-	//	printf("%d´Ü\n", i);
+	//	printf("%dë‹¨\n", i);
 	//	for (int j = 1; j <= 9; j++)
 	//	{
 	//		printf("%d x %d = %d\n", i, j, i*j);
@@ -31,7 +31,7 @@ int main() {
 	//	printf("\n");
 	//}
 
-	// ÇÇ¶ó¹Ìµå¸¦ ½×¾Æ¶ó ÇÁ·ÎÁ§Æ®
+	// í”¼ë¼ë¯¸ë“œë¥¼ ìŒ“ì•„ë¼ í”„ë¡œì íŠ¸
 	/*
 	        **
 	      ****** 
@@ -40,7 +40,7 @@ int main() {
 	******************
 	*/
 	int floor;
-	printf("¸î ÃþÀ¸·Î ½×°Ú´À³Ä?");
+	printf("ëª‡ ì¸µìœ¼ë¡œ ìŒ“ê² ëŠëƒ?");
 	scanf_s("%d", &floor);
 	for (int i = 0; i < floor; i++)
 	{
@@ -49,7 +49,7 @@ int main() {
 		{
 			printf(" ");
 		}
-		for (int k = 0; k < 2 * w; k++)
+		for (int k = 0; k < w * 2; k++)
 		{
 			printf("*");
 		}
@@ -59,7 +59,7 @@ int main() {
 	
 
 	//int floor;
-	//printf("¸î ÃþÀ¸·Î ½×°Ú´À³Ä?");
+	//printf("ëª‡ ì¸µìœ¼ë¡œ ìŒ“ê² ëŠëƒ?");
 	//scanf_s("%d", &floor);
 	//for (int i = 0; i < floor; i++)
 	//{
